@@ -2,7 +2,7 @@
 /*
 name:        Samuel Njoroge Wairimu
 reg:         CT101/G/26428/25
-description: A C program that displays a list of units offered in the current semester.
+description: A C program that displays a list of units offered in the current semester in kyu.
 */
 
 
