@@ -1,0 +1,20 @@
+/*
+NAME: SAMUEL NJOROGE 
+REG: CT101/G/26428/25
+DESCRIPTION: Calculate total fare
+*/
+#include <stdio.h>
+
+float calculateFare(float distance) {
+    float fare = distance * 50;
+    return fare;
+}
+
+int main() {
+    float distance;
+    printf("Enter distance traveled (km): ");
+    scanf("%f", &distance);
+
+    printf("Total fare = KSh. %.2f\n", calculateFare(distance));
+    return 0;
+}
