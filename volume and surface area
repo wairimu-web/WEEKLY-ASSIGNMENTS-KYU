@@ -1,0 +1,30 @@
+// Surface area of a cylinder
+
+/*
+name:        Samuel Njoroge Wairimu
+reg:         CT101/G/26428/25
+description: A C program to calculate the surface area of a cylinder
+
+*/
+
+#define _USE_MATH_DEFINES   
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double radius, height, surfaceArea;
+
+    printf("Enter the radius of the cylinder: ");
+    scanf("%lf", &radius);
+
+    printf("Enter the height of the cylinder: ");
+    scanf("%lf", &height);   
+
+    // formula: A = 2πr(h + r)
+    surfaceArea = 2 * M_PI * radius * (height + radius);
+
+    printf("The surface area of the cylinder is: %.2lf\n", surfaceArea);   
+    
+    return 0;
+}
+// didn''t combine the two for radability

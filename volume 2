@@ -1,0 +1,28 @@
+// volume of a cylinder
+
+/*
+name:        Samuel Njoroge Wairimu
+reg:         CT101/G/26428/25
+description: A program to calculate the volume of a cylinder
+*/
+
+#define _USE_MATH_DEFINES   
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double radius, height, volume;
+
+    printf("Enter the radius of the cylinder: ");
+    scanf("%lf", &radius);
+
+    printf("Enter the height of the cylinder: ");
+    scanf("%lf", &height);   
+
+    // formula: V = π * r^2 * h
+    volume = M_PI * radius * radius * height;
+
+    printf("The volume of the cylinder is: %.2lf\n", volume);   
+    
+    return 0;
+}
